@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 14</title>
+  <link rel="stylesheet" href="styletarefa14.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= família= Roboto:wght@100;300;400;700;900 & display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+    import { Button } from 'flowbite-react';
+</head>
+<body>
+  <header class="navbar"> 
+    <a href="" class="logo">
+       <img src="squad.png" alt="Logomarca da empresa">
+       <span>5 Squad</span>
+    </a>
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-list-item">
+                <a href=""strong>Home</a>
+            </li>
+            <li class="nav-list-item">
+                <a href=""strong>Roupas</a>
+            </li>
+            <li class="nav-list-item">
+                <a href=""strong>Contato</a>
+            </li>
+            <li class="nav-list-item">
+                <a href=""strong>Localização</a>
+            </li>
+            <li class="nav-list-item">
+                <a href=""strong>Carrinho</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div>
+        <a href="teladelogin.html" class="log"><Button>Login</Button>
+    </div>
+  </header>
+
+ <section>
+    <h1 class="titulo">Camisas</h1>
+    <div class="camisas">
+      
+      <article class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/775752/camiseta_alive_u_s_a_branco_4007_1_32b3f2efb9b9264a9f182493e5ef7d8c.jpg" alt="">
+        <h3>Camiseta Alive U.S.A Branco</h3>
+      </article>
+      <article class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/775752/camiseta_alive_logo_basic_chumbo_3025_1_be83a2968ba8f42473b147cc88b3d6a5.jpg" alt="">
+        <h3>Camiseta Alive Basic Chumbo</h3>
+      </article>
+      <article class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/775752/camiseta_ous_semi_logo_aura_4429_1_57533844ccd4bf8b1515b5f818cd1420.jpg" alt="">
+        <h3>Camiseta Öus Semi Logo Aura</h3>
+      </article>
+      <article class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/775752/camiseta_qix_ursinho_pooh_marrom_4185_1_6fed8ff11ca3a890175fd298f0981068.jpg" alt="">
+        <h3>Camiseta Qix ursinho pooh</h3>
+      </article>
+      <article class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/775752/camiseta_alive_origins_amarelo_4031_1_85ea570e0b4229bc840d2cd4dba9cc62.jpg" alt="">
+        <h3>Camiseta Alive Origins Amarelo</h3>
+      </article>
+      <article class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/775752/camiseta_alive_central_park_cinza_3997_1_996e446d1b11aef9960cc99dcc9f5651.jpg" alt="">
+        <h3>Camiseta Alive Central Park Cinza</h3>
+      </article>
+      <article class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/775752/camiseta_champion_script_logo_contour_surf_the_web_3143_variacao_18985_1_9fc8797f21807b3a593d584dd83457f8.jpg" alt="">
+        <h3>Camiseta Champion Surf</h3>
+      </article>
+      <article class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/775752/camiseta_alive_central_park_preto_manga_longa_3995_1_2df255d92c0f1f8fd2bd67edbd8c344a.jpg" alt="">
+        <h3>Camiseta Alive Central Park preta</h3>
+      </article>
+      <article class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/775752/camiseta_alive_gnome_peace_bege_3127_1_897590638408bbebb6c5855472ed2c02.jpg" alt="">
+        <h3>Camiseta Alive Gnome Peace Bege</h3>
+      </article>
+      <article class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/775752/camiseta_alive_eastern_dragon_vermelho_2897_2_ead9aa15a50f703cbe8f241538a16511.jpg" alt="">
+        <h3>Camiseta Alive Eastern Dragon</h3>
+      </article><article class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/775752/camiseta_alive_stickers_2725_1_0ec72c318f54a17ba277178040bbe587.jpg" alt="">
+        <h3>Camiseta Alive Stickers Branco</h3>
+      </article>
+      <article class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/775752/camiseta_qix_elf_preto_4189_2_d63b52aeb8acc185f5aa3e6a27b26df9.jpg" alt="">
+        <h3>Camiseta Qix Elfo Preto</h3>
+      </article>
+    </div>
+  </section>
+
+<section>
+  <h1 class="titulo">Calças</h1>
+  <div class="calças">
+    <article class="product-card">
+      <img src="https://images.tcdn.com.br/img/img_prod/775752/calca_hocks_sintetico_park_jogger_preto_4091_1_fb06d8a92bd68d981b08e41f265fa2b9.jpg" alt="">
+      <h3>Calça Hocks Sintético Park Jogger Preto</h3>
+    </article>
+    <article class="product-card">
+      <img src="https://images.tcdn.com.br/img/img_prod/775752/calca_hocks_sarja_croock_studio_cinza_4087_1_ae2beb1b95c82d9a5eb8c289229a2ee0.jpg" alt="">
+      <h3>Calça Hocks Sarja Croock Studio Cinza</h3>
+    </article>
+    <article class="product-card">
+      <img src="https://images.tcdn.com.br/img/img_prod/775752/calca_hocks_sarja_croock_studio_caqui_4089_1_9e20f65f6701131f0905909518a93467.jpg" alt="">
+      <h3>Calça Hocks Sarja Croock Studio Caqui</h3>
+    </article>
+    <article class="product-card">
+      <img src="https://images.tcdn.com.br/img/img_prod/775752/calca_hocks_flex_regular_xgg_jeans_3455_1_62484b140eca1ea62fa77dbf632228ee.jpg" alt="">
+      <h3>Calça Hocks Flex Regular XGG Jeans Branco</h3>
+    </article>
+    <article class="product-card">
+      <img src="https://images.tcdn.com.br/img/img_prod/775752/calca_hocks_central_bf_cargo_preto_3165_1_2f718a62285e5fcc81f06666d50ee4ed.jpg" alt="">
+      <h3>Calça Hocks Central - BF Cargo Preto</h3>
+    </article>
+    <article class="product-card">
+      <img src="https://images.tcdn.com.br/img/img_prod/775752/calca_hocks_sarja_central_bf_cargo_caqui_3161_1_053f7a8c6130605a3e67959a513677f3.jpg" alt="">
+      <h3>Calça Hocks Sarja Central - BF Cargo Caqui</h3>
+    </article> 
+  </div>
+</section>
+
+<section>
+  <h1 class="titulo">Tênis</h1>
+  <div class="tenis">
+    <article class="product-card">
+      <img src="https://images.tcdn.com.br/img/img_prod/775752/tenis_hocks_ruas_cascalho_cinza_4393_1_e60afc8194f304ab3e1ef7d106bd8156.jpg" alt="">
+      <h3>Tênis Hocks Ruas Ice Purple</h3>
+    </article>
+    <article class="product-card">
+      <img src="https://images.tcdn.com.br/img/img_prod/775752/tenis_hocks_flat_lite_petitpoa_4301_1_b4bb9dabb4145a79713e0b04c2e93bb7.jpg" alt="">
+      <h3>Tênis Hocks Flat Lite Petitpoa</h3>
+    </article>
+    <article class="product-card">
+      <img src="https://images.tcdn.com.br/img/img_prod/775752/tenis_hocks_pulsus_gelo_2933_1_3fe6f203f079c967badda8987fc49084.jpg" alt="">
+      <h3>Tênis Hocks Pulsus Gelo</h3>
+    </article>
+    <article class="product-card">
+      <img src="https://images.tcdn.com.br/img/img_prod/775752/tenis_ous_imigrante_preto_furta_cor_03_3485_1_013eac798fb1a0e43cf85481dec27a29.jpg" alt="">
+      <h3>Tênis Öus Imigrante Furta</h3>
+    </article>
+    <article class="product-card">
+      <img src="https://images.tcdn.com.br/img/img_prod/775752/tenis_ous_ueno_cinza_cristal_pink_refletivo_essencial_4403_1_496e888fae2a590c7861d20202590ec7.jpg" alt="">
+      <h3>Tênis Öus Ueno Refletivo Essencial</h3>
+    </article>
+    <article class="product-card">
+      <img src="https://images.tcdn.com.br/img/img_prod/775752/tenis_ous_skate_arquitetonico_preto_pink_essencial_3881_1_9852fed0bc7d48e64050578138a82fc0.jpg" alt="">
+      <h3>Tênis Öus Arquitetônico</h3>
+    </article>
+  </div>
+</section>
+
+<footer class="rodape">
+  <div> 
+    <img src="facebook.svg" alt="">
+    <img src="twetter.svg" alt="">
+    <img src="linkedin.svg" alt="">
+    <img src="instagram.svg" alt="">
+  </div>
+  
+</footer>
+</body>
+</html>
