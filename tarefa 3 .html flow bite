@@ -14,7 +14,7 @@
     import { Button } from 'flowbite-react';
 </head>
 <body>
-  <header class="navbar"> 
+  <header class="navbar-sm sm:navbar-base"> 
     <a href="" class="logo">
        <img src="squad.png" alt="Logomarca da empresa">
        <span>5 Squad</span>
