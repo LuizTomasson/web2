@@ -1,0 +1,63 @@
+* {
+  @apply m-0 p-0;
+}
+.navbar {
+  @apply flex h-20 bg-black shadow-[0px_4px_20px_rgba(0,0,0,0.1)] items-center justify-around col-start-1 col-end-4;
+}
+.navbar img {
+  @apply w-[75px] h-[75px];
+}
+.logo {
+  @apply flex items-center gap-2 no-underline;
+}
+.logo span {
+  @apply font-bold text-sm leading-4 text-[white];
+  font-family: "Roboto", Times, serif;
+}
+.nav-list {
+  @apply flex gap-10;
+}
+.nav-list-item {
+  @apply flex gap-10 font-[bold];
+  list-style: none;
+}
+.nav-list-item a {
+  @apply no-underline text-[white];
+}
+.log {
+  @apply no-underline text-[white] box-border border flex h-12 w-[170px] justify-center items-center rounded-[10px] border-solid border-[#eeeeeebb];
+}
+body {
+  @apply bg-[lightslategray] grid-cols-[repeat(3,42.5%)] gap-y-2 gap-x-2;
+}
+@media only screen and (min-width: 1200px) {
+  body {
+    @apply flex-row;
+  }
+}
+.product-card {
+  @apply w-[180px] h-[250px] border overflow-hidden flex flex-col justify-around flex rounded-lg border-solid border-[rgba(0,0,0,0.5)];
+}
+.product-card img {
+  @apply w-[180px] h-[200px] justify-center;
+}
+.product-card h3 {
+  @apply h-full bg-[white] text-center flex content-center p-2 border-t-[black] border-t border-solid;
+  font-family: "Times New Roman", Times, serif;
+}
+.camisas {
+  @apply flex flex-wrap gap-5 m-[35px];
+}
+.calças {
+  @apply flex flex-wrap gap-5 p-[35px];
+}
+.tenis {
+  @apply flex flex-wrap gap-5 p-[35px];
+}
+.titulo {
+  @apply text-[40px] text-center text-[white];
+  font-family: "Caprasimo", cursive;
+}
+.rodape {
+  @apply bg-[black] items-center h-[100px] justify-center flex;
+}
