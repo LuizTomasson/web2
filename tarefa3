@@ -1,0 +1,39 @@
+
+    <>
+       <header className=" flex h-20 bg-black shadow-[0px_4px_20px_rgba(0,0,0,0.1)] items-center justify-around col-start-1 col-end-4;"> 
+    <a href="" className="flex items-center gap-2 no-underline;">
+       <img className='w-[75px] h-[75px];' src="squad.png" alt="Logomarca da empresa"/>
+       <span>5 Squad</span>
+    </a>
+    <nav>
+        <ul className="flex gap-10;">
+            <li className="gap-10 font-[bold];
+  list-style: none;">
+                <a href=""className='no-underline text-[white];'>Home</a>
+            </li>
+            <li className="gap-10 font-[bold];
+  list-style: none;">
+                <a href=""className='no-underline text-[white];'>Roupas</a>
+            </li>
+            <li className="gap-10 font-[bold];
+  list-style: none;">
+                <a href=""className='no-underline text-[white];'>Contato</a>
+            </li>
+            <li className="gap-10 font-[bold];
+  list-style: none;">
+                <a href=""className='no-underline text-[white];'>Localização</a>
+            </li>
+            <li className="gap-10 font-[bold];
+  list-style: none;">
+                <a href=""className='no-underline text-[white];'>Carrinho</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div>
+        <a href="" className=" no-underline text-[white] box-border border flex h-12 w-[170px] justify-center items-center rounded-[10px] border-solid border-[#eeeeeebb];"/> <button>Login</button>
+    </div>
+  </header>
+
+</>
+
